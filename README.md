@@ -1,9 +1,12 @@
 # typeorm-postgresql
 Typescript-Express rest api
 
-npm install
-docker-compose up
-npm run dev
+<ul>
+<li>npm install</li>
+<li>docker-compose up</li>
+<li>npm run dev</li>
+</ul>
+
 
 
 ## Environment (.env)
@@ -21,6 +24,8 @@ POSTGRES_DB="deneme"
 <li>Database: postgres</li>
 <li>Orm: typeorm</li>
 <li>Logger: chalk@4.1.2</li>
+<li>App: express</li>
+<li>Cors: cors </li>
 </ul>
 
 
@@ -31,7 +36,9 @@ POSTGRES_DB="deneme"
 <li>Application service layer : Services</li>
 <li>Response layer & Exceptions: Controller
 </ul>
-![image](https://user-images.githubusercontent.com/101109536/207129343-a78a2ab7-67bd-4b32-baca-e1b3bb72a952.png)
+</br>
+
+
 
 
 ## docker-compose 
@@ -57,6 +64,8 @@ services:
     ports:
       - 8080:8080
 ```
+
+
 
 
 
